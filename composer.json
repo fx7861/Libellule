@@ -1,0 +1,28 @@
+{
+    "name": "libellule/libellule",
+    "description": "Framework Apprentissage POO",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "picsou20",
+            "email": "xav.riquet@gmx.fr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Libellule\\": "vendor/libellule/src",
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^4.2",
+        "altorouter/altorouter": "^1.2",
+        "twig/twig": "^2.0",
+        "tightenco/collect": "^5.7"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
